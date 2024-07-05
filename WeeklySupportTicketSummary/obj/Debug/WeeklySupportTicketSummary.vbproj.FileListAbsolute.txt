@@ -1,0 +1,108 @@
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.vbproj.AssemblyReference.cache
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.Resources.resources
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.vbproj.GenerateResource.cache
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.vbproj.CoreCompileInputs.cache
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.exe.config
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.exe
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.pdb
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.xml
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\log4net.dll
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\log4net.xml
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySu.C3E0D304.Up2Date
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.exe
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.xml
+D:\Office Work\TRAK\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.exe.config
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.exe
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\WeeklySupportTicketSummary.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\log4net.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\log4net.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.vbproj.AssemblyReference.cache
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.Resources.resources
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.vbproj.GenerateResource.cache
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.vbproj.CoreCompileInputs.cache
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySu.C3E0D304.Up2Date
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.exe
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\obj\Debug\WeeklySupportTicketSummary.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\BouncyCastle.Cryptography.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Enums.NET.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\ExtendedNumerics.BigDecimal.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Google.Protobuf.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\K4os.Compression.LZ4.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\K4os.Hash.xxHash.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\MathNet.Numerics.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\MySql.Data.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.Core.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OOXML.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OpenXml4Net.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\SixLabors.Fonts.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\SixLabors.ImageSharp.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Buffers.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.ClientModel.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.IO.Pipelines.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Memory.Data.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Memory.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Numerics.Vectors.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.AccessControl.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.Cryptography.Pkcs.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.Principal.Windows.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Text.Encodings.Web.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Text.Json.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.ValueTuple.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\ZstdSharp.dll
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\BouncyCastle.Cryptography.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Enums.NET.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Enums.NET.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\ExtendedNumerics.BigDecimal.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Google.Protobuf.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Google.Protobuf.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\K4os.Compression.LZ4.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\K4os.Hash.xxHash.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\MathNet.Numerics.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\MySql.Data.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.Core.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.Core.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OOXML.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OOXML.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OpenXml4Net.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OpenXml4Net.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OpenXmlFormats.pdb
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\NPOI.OpenXmlFormats.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\SixLabors.Fonts.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\SixLabors.ImageSharp.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Buffers.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.ClientModel.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.IO.Pipelines.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Memory.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Memory.Data.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Numerics.Vectors.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.AccessControl.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Security.Principal.Windows.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Text.Encodings.Web.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Text.Json.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\OfficeWork\Trak\GIT_WeeklySupportTicketSummary\WeeklySupportTicketSummary\bin\Debug\System.ValueTuple.xml

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>    
+</head>
+<body>
+Hello owneremail,
+<br /><br />
+
+	Please find the attached Group Admin Weekly Summary Ticket Report.
+	<br /><br />	
+	<br /><br />
+
+	Thank You,<br />
+	SupportTeamName
+	<br /><br />
+	email us at <a href="mailto:supportemail" target="_blank">supportemail</a>  
+	<br /><br />
+	<b>SupportPhoneNumber</b>
+	<br />
+	SupportLine1
+	<br />
+	SupportLine2
+	<br /><br />	
+	<br /><br />
+
+|<a href="websiteURLHREF" target="_tab">webisteURL</a>| <br />
+	ImageSign
+
+</body>
+</html>
