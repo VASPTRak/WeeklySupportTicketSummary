@@ -133,8 +133,8 @@ Module Module1
                 End Try
             Next
             '==================================================================
-            Dim FileName As String = ConfigurationManager.AppSettings("FileName").ToString()
-            WriteExcelWithNPOI("xlsx", dtFinal, FileName)
+
+            Dim FileName = WriteExcelWithNPOI("xlsx", dtFinal)
 
             SendEmail(FileName, EmailId) '
 
@@ -143,7 +143,8 @@ Module Module1
         End Try
     End Sub
 
-    Public Sub WriteExcelWithNPOI(ByVal extension As String, ByVal dtData As DataTable, filename As String)
+    Public Function WriteExcelWithNPOI(ByVal extension As String, ByVal dtData As DataTable) As String
+        Dim fullPath = ""
         Try
 
             Dim workbook As IWorkbook
@@ -208,13 +209,15 @@ Module Module1
             '==================================================================
 
             'Dim filePath As String = ConfigurationManager.AppSettings("PathForSaveOpenTicketReport").ToString()
-            Dim fullPath = filename
+            fullPath = "Attacments/" & DateTime.Now.ToString("yyyy_MM_dd_hh_mm_ss_fff") & ".xls"
+
 
             Using exportData = New MemoryStream()
                 workbook.Write(exportData)
                 Try
                     If (File.Exists(fullPath)) Then
-                        File.Delete(fullPath)
+                        'File.Delete(fullPath)
+                        System.IO.File.Delete(fullPath)
                     End If
                 Catch ex As Exception
                     log.Info("In WriteExcelWithNPOI => exception in delete file. filename: " & fullPath & "; exception is: " & ex.ToString())
@@ -237,7 +240,8 @@ Module Module1
                 log.Error("Error occurred in WriteExcelWithNPOI. Exception is :" + ex.Message)
             End If
         End Try
-    End Sub
+        Return fullPath
+    End Function
 
     Private Sub SendEmail(FileName As String, EmailId As String)
         Try
@@ -275,7 +279,9 @@ Module Module1
             messageSend.From = New MailAddress(ConfigurationManager.AppSettings("FromEmail"))
 
             If FileExists(FileName) Then
-                messageSend.Attachments.Add(New Attachment(FileName))
+                Dim attach As Attachment = New Attachment(FileName)
+                attach.Name = ConfigurationManager.AppSettings("FileName").ToString()
+                messageSend.Attachments.Add(attach)
             End If
 
             mailClient.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings("EnableSsl"))
@@ -284,6 +290,7 @@ Module Module1
                 messageSend.To.Add(EmailId.Trim()) '
                 mailClient.Send(messageSend)
                 log.Info("Email send to: " + EmailId)
+                messageSend.Attachments.Clear()
                 messageSend.To.Remove(New MailAddress(EmailId.Trim())) '
                 Try
                     System.IO.File.Delete(FileName)
