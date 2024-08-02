@@ -22,6 +22,12 @@ Module Module1
         XmlConfigurator.Configure()
         log.Info("Execution started")
         Try
+            Dim body As String = String.Empty
+            Using sr As New StreamReader(ConfigurationManager.AppSettings("PathForSupportDataToGroupAdminEmailTemplate"))
+                body = sr.ReadToEnd()
+            End Using
+            Dim filePath As String = ConfigurationManager.AppSettings("PathForSaveOpenTicketReport").ToString()
+            log.Debug("Template Path: " + ConfigurationManager.AppSettings("PathForSupportDataToGroupAdminEmailTemplate") + " File folder: " + ConfigurationManager.AppSettings("PathForSaveOpenTicketReport").ToString())
             StartProcessing()
         Catch ex As Exception
             log.Error("Error occurred in Main. ex is :" & ex.Message)
@@ -208,8 +214,8 @@ Module Module1
 
             '==================================================================
 
-            'Dim filePath As String = ConfigurationManager.AppSettings("PathForSaveOpenTicketReport").ToString()
-            fullPath = "Attacments/" & DateTime.Now.ToString("yyyy_MM_dd_hh_mm_ss_fff") & ".xls"
+            Dim filePath As String = ConfigurationManager.AppSettings("PathForSaveOpenTicketReport").ToString()
+            fullPath = filePath & DateTime.Now.ToString("yyyy_MM_dd_hh_mm_ss_fff") & ".xls"
 
 
             Using exportData = New MemoryStream()
