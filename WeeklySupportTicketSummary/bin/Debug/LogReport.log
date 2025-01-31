@@ -28,3 +28,50 @@ ERROR 2024-07-08 18:48:46,457 345619ms Module1                SendEmail         
    at WeeklySupportTicketSummary.Module1.SendEmail(String FileName, String EmailId)
 DEBUG 2024-07-08 18:48:50,012 349174ms Module1                StartProcessing    - Done for: 28284
 INFO  2024-07-08 18:48:53,538 352700ms Module1                ExcelProcessing    - In ExcelProcessing
+INFO  2024-07-15 19:00:27,513   991ms Module1                Main               - Execution started
+INFO  2024-07-15 19:00:27,889  1367ms Module1                StartProcessing    - In StartProcessing
+DEBUG 2024-07-15 19:00:27,895  1373ms Module1                StartProcessing    - Day of week: monday Eastern Time of the Day: 9
+INFO  2024-07-15 19:00:38,024 11502ms Module1                ExcelProcessing    - In ExcelProcessing
+INFO  2024-08-02 17:07:27,621   651ms Module1                Main               - Execution started
+DEBUG 2024-08-02 17:07:27,699   729ms Module1                Main               - Template Path: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/SupportDataToGroupAdminEmail.txt File folder: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/Attacments/
+INFO  2025-01-31 12:32:45,485   515ms Module1                Main               - Execution started
+DEBUG 2025-01-31 12:32:45,562   592ms Module1                Main               - Template Path: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/SupportDataToGroupAdminEmail.txt File folder: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/Attacments/
+INFO  2025-01-31 12:32:45,794   824ms Module1                StartProcessing    - In StartProcessing
+DEBUG 2025-01-31 12:32:45,801   831ms Module1                StartProcessing    - Day of week: friday Eastern Time of the Day: 2
+INFO  2025-01-31 17:59:22,514   545ms Module1                Main               - Execution started
+DEBUG 2025-01-31 17:59:22,612   644ms Module1                Main               - Template Path: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/SupportDataToGroupAdminEmail.txt File folder: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/Attacments/
+INFO  2025-01-31 17:59:22,936   967ms Module1                StartProcessing    - In StartProcessing
+DEBUG 2025-01-31 17:59:22,942   973ms Module1                StartProcessing    - Day of week: friday Eastern Time of the Day: 7
+ERROR 2025-01-31 18:00:33,600 71631ms MasterBAL              kOrSetDataSendFlag - Error occurred in CheckOrSetDataSendFlag Exception is :Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+INFO  2025-01-31 18:02:25,574   316ms Module1                Main               - Execution started
+DEBUG 2025-01-31 18:02:25,606   348ms Module1                Main               - Template Path: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/SupportDataToGroupAdminEmail.txt File folder: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/Attacments/
+INFO  2025-01-31 18:02:25,641   383ms Module1                StartProcessing    - In StartProcessing
+DEBUG 2025-01-31 18:02:25,654   396ms Module1                StartProcessing    - Day of week: friday Eastern Time of the Day: 7
+INFO  2025-01-31 18:04:46,905   519ms Module1                Main               - Execution started
+DEBUG 2025-01-31 18:04:47,039   653ms Module1                Main               - Template Path: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/SupportDataToGroupAdminEmail.txt File folder: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/Attacments/
+INFO  2025-01-31 18:04:47,200   814ms Module1                StartProcessing    - In StartProcessing
+DEBUG 2025-01-31 18:04:47,211   825ms Module1                StartProcessing    - Day of week: friday Eastern Time of the Day: 7
+INFO  2025-01-31 18:05:26,517 40131ms Module1                ExcelProcessing    - In ExcelProcessing
+INFO  2025-01-31 18:05:32,565 46179ms Module1                WriteExcelWithNPOI - In WriteExcelWithNPOI => step 9
+ERROR 2025-01-31 18:05:53,697 67311ms Module1                WriteExcelWithNPOI - Error occurred in WriteExcelWithNPOI. Exception is :Access to the path 'C:\Program Files (x86)\Trak\WeeklySupportTicketSummary_JOB\Attacments\2025_01_31_06_05_28_611.xls' is denied.
+INFO  2025-01-31 18:07:23,049 156663ms Module1                SendEmail          - Email send to: checkgrp@checkgrp.com
+DEBUG 2025-01-31 18:07:35,093 168707ms Module1                StartProcessing    - Done for: 28284
+INFO  2025-01-31 18:07:42,081 175695ms Module1                ExcelProcessing    - In ExcelProcessing
+INFO  2025-01-31 18:07:45,291 178905ms Module1                WriteExcelWithNPOI - In WriteExcelWithNPOI => step 9
+ERROR 2025-01-31 18:08:33,081 226695ms Module1                WriteExcelWithNPOI - Error occurred in WriteExcelWithNPOI. Exception is :Access to the path 'C:\Program Files (x86)\Trak\WeeklySupportTicketSummary_JOB\Attacments\2025_01_31_06_07_42_877.xls' is denied.
+INFO  2025-01-31 18:08:42,734 236348ms Module1                SendEmail          - Email send to: chechterm@chechterm.com
+DEBUG 2025-01-31 18:08:45,310 238924ms Module1                StartProcessing    - Done for: 28436
+INFO  2025-01-31 18:08:45,375 238989ms Module1                Main               - Execution stopped
+INFO  2025-01-31 18:09:53,011   293ms Module1                Main               - Execution started
+DEBUG 2025-01-31 18:09:53,034   316ms Module1                Main               - Template Path: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/SupportDataToGroupAdminEmail.txt File folder: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/Attacments/
+INFO  2025-01-31 18:09:53,077   359ms Module1                StartProcessing    - In StartProcessing
+DEBUG 2025-01-31 18:09:53,081   363ms Module1                StartProcessing    - Day of week: friday Eastern Time of the Day: 7
+INFO  2025-01-31 18:10:21,605 28887ms Module1                ExcelProcessing    - In ExcelProcessing
+INFO  2025-01-31 18:10:26,294 33576ms Module1                WriteExcelWithNPOI - In WriteExcelWithNPOI => step 9
+INFO  2025-01-31 18:12:09,465   309ms Module1                Main               - Execution started
+DEBUG 2025-01-31 18:12:09,496   340ms Module1                Main               - Template Path: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/SupportDataToGroupAdminEmail.txt File folder: C:/Program Files (x86)/Trak/WeeklySupportTicketSummary_JOB/Attacments/
+INFO  2025-01-31 18:12:09,536   380ms Module1                StartProcessing    - In StartProcessing
+DEBUG 2025-01-31 18:12:09,536   380ms Module1                StartProcessing    - Day of week: friday Eastern Time of the Day: 7
+INFO  2025-01-31 18:12:15,908  6752ms Module1                ExcelProcessing    - In ExcelProcessing
+INFO  2025-01-31 18:12:21,825 12669ms Module1                WriteExcelWithNPOI - In WriteExcelWithNPOI => step 9
+INFO  2025-01-31 18:12:25,367 16211ms Module1                WriteExcelWithNPOI - In WriteExcelWithNPOI => step 10

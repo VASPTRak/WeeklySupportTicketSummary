@@ -53,46 +53,49 @@ Module Module1
 
             log.Debug("Day of week: " & dayOfWeek & " Eastern Time of the Day: " & timeOfDay)
 
-            If day = dayOfWeek Then
-                If time <= timeOfDay Then
-                    Dim OBJMasterBAL = New MasterBAL()
-                    Dim checkDataSendFlag As Boolean = OBJMasterBAL.CheckOrSetDataSendFlag(0)
-                    If checkDataSendFlag Then
+            'Handled directly from Task scheduler 
+            'Every Sunday at 10pm UTC i.e 5pm EST
 
-                        Dim dsGroupAdmins As DataSet = OBJMasterBAL.GetGroupAdminsHavingAccessToTicket()
+            'If day = dayOfWeek Then
+            '    If time <= timeOfDay Then
+            Dim OBJMasterBAL = New MasterBAL()
+            Dim checkDataSendFlag As Boolean = OBJMasterBAL.CheckOrSetDataSendFlag(0)
+            If checkDataSendFlag Then
 
-                        If dsGroupAdmins IsNot Nothing Then
-                            If dsGroupAdmins.Tables(0) IsNot Nothing Then
-                                If dsGroupAdmins.Tables(0).Rows.Count > 0 Then
-                                    For i = 0 To dsGroupAdmins.Tables(0).Rows.Count - 1
-                                        Try
-                                            OBJMasterBAL = New MasterBAL()
-                                            Dim dsSuppData As DataSet = OBJMasterBAL.GetSupportItemsByGroupAdmin(dsGroupAdmins.Tables(0).Rows(i)(0))
-                                            If dsSuppData IsNot Nothing Then
-                                                If dsSuppData.Tables(0) IsNot Nothing Then
-                                                    If dsSuppData.Tables(0).Rows.Count > 0 Then
-                                                        ExcelProcessing(dsSuppData.Tables(0), dsGroupAdmins.Tables(0).Rows(i)(1))
-                                                        log.Debug("Done for: " & dsGroupAdmins.Tables(0).Rows(i)(0).ToString())
-                                                    Else
-                                                        log.Debug("No data found: " & dsGroupAdmins.Tables(0).Rows(i)(0).ToString())
-                                                    End If
-                                                End If
+                Dim dsGroupAdmins As DataSet = OBJMasterBAL.GetGroupAdminsHavingAccessToTicket()
+
+                If dsGroupAdmins IsNot Nothing Then
+                    If dsGroupAdmins.Tables(0) IsNot Nothing Then
+                        If dsGroupAdmins.Tables(0).Rows.Count > 0 Then
+                            For i = 0 To dsGroupAdmins.Tables(0).Rows.Count - 1
+                                Try
+                                    OBJMasterBAL = New MasterBAL()
+                                    Dim dsSuppData As DataSet = OBJMasterBAL.GetSupportItemsByGroupAdmin(dsGroupAdmins.Tables(0).Rows(i)(0))
+                                    If dsSuppData IsNot Nothing Then
+                                        If dsSuppData.Tables(0) IsNot Nothing Then
+                                            If dsSuppData.Tables(0).Rows.Count > 0 Then
+                                                ExcelProcessing(dsSuppData.Tables(0), dsGroupAdmins.Tables(0).Rows(i)(1))
+                                                log.Debug("Done for: " & dsGroupAdmins.Tables(0).Rows(i)(0).ToString())
+                                            Else
+                                                log.Debug("No data found: " & dsGroupAdmins.Tables(0).Rows(i)(0).ToString())
                                             End If
-                                        Catch ex As Exception
-                                            log.Error("Error occurred in StartProcessing for loop. ex is :" & ex.Message)
-                                        End Try
-                                    Next
-                                Else
-                                    log.Debug("No data(admin) found.")
-                                End If
-                            End If
+                                        End If
+                                    End If
+                                Catch ex As Exception
+                                    log.Error("Error occurred in StartProcessing for loop. ex is :" & ex.Message)
+                                End Try
+                            Next
+                        Else
+                            log.Debug("No data(admin) found.")
                         End If
-
-                        ' set flag for Sunday 5 PM EDT 
-                        OBJMasterBAL.CheckOrSetDataSendFlag(1)
                     End If
                 End If
+
+                ' set flag for Sunday 5 PM EDT 
+                OBJMasterBAL.CheckOrSetDataSendFlag(1)
             End If
+            '    End If
+            'End If
         Catch ex As Exception
             log.Error("Error occurred in StartProcessing. ex is :" & ex.Message)
         End Try
@@ -106,7 +109,7 @@ Module Module1
             Dim dtTransactions As DataTable = dtData
             Dim dtFinal As DataTable = New DataTable()
 
-            Dim columns As String = "Company,Issue Type,Replacement Part Ordered,Status,Date,Created By"
+            Dim columns As String = "Company,Issue Type,Replacement Part Ordered,Comments,Status,Date,Created By"
             Dim columnsOfArray() As String = columns.Split(",")
 
             For l As Integer = 0 To columnsOfArray.Count - 1
@@ -129,6 +132,7 @@ Module Module1
                     drNew("Company") = dr("Company").ToString()
                     drNew("Issue Type") = dr("IssueTypeText").ToString()
                     drNew("Replacement Part Ordered") = dr("ReplacementStuff").ToString()
+                    drNew("Comments") = dr("ListPageComments").ToString()
                     drNew("Status") = dr("StatusText").ToString()
                     drNew("Date") = dr("SupportDate").ToString()
                     drNew("Created By") = dr("CaseOpenedBy").ToString()
