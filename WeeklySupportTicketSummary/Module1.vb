@@ -2,6 +2,7 @@
 Imports System.IO
 Imports System.Net
 Imports System.Net.Mail
+Imports System.Web
 Imports Azure
 Imports log4net
 Imports log4net.Config
@@ -132,7 +133,7 @@ Module Module1
                     drNew("Company") = dr("Company").ToString()
                     drNew("Issue Type") = dr("IssueTypeText").ToString()
                     drNew("Replacement Part Ordered") = dr("ReplacementStuff").ToString()
-                    drNew("Comments") = dr("ListPageComments").ToString()
+                    drNew("Comments") = HttpUtility.HtmlEncode(HttpUtility.UrlDecode(dr("ListPageComments").ToString().Trim()))
                     drNew("Status") = dr("StatusText").ToString()
                     drNew("Date") = dr("SupportDate").ToString()
                     drNew("Created By") = dr("CaseOpenedBy").ToString()
@@ -196,7 +197,7 @@ Module Module1
             cellHeader.CellStyle = customStyle
             cellHeader = rowHeader.CreateCell(1)
             Dim weekdate As String = ""
-            weekdate = Date.Today.ToString("MMM dd,yyyy") & " - " & DateTime.Now.AddDays(-7).ToString("MMM dd,yyyy")
+            weekdate = DateTime.Now.AddDays(-7).ToString("MMM dd,yyyy") & " - " & Date.Today.ToString("MMM dd,yyyy")
             cellHeader.SetCellValue(weekdate)
             cellHeader.CellStyle = customStyle
 
