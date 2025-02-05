@@ -22,6 +22,10 @@ Module Module1
     Sub Main()
         XmlConfigurator.Configure()
         log.Info("Execution started")
+        Dim a As String = ""
+        a = HttpUtility.HtmlEncode(HttpUtility.UrlDecode("soham's"))
+        a = HttpUtility.UrlDecode("soham's")
+
         Try
             Dim body As String = String.Empty
             Using sr As New StreamReader(ConfigurationManager.AppSettings("PathForSupportDataToGroupAdminEmailTemplate"))
@@ -131,9 +135,9 @@ Module Module1
                 Try
                     Dim drNew As DataRow = dtFinal.NewRow()
                     drNew("Company") = dr("Company").ToString()
-                    drNew("Issue Type") = dr("IssueTypeText").ToString()
-                    drNew("Replacement Part Ordered") = dr("ReplacementStuff").ToString()
-                    drNew("Comments") = HttpUtility.HtmlEncode(HttpUtility.UrlDecode(dr("ListPageComments").ToString().Trim()))
+                    drNew("Issue Type") = HttpUtility.UrlDecode(dr("IssueTypeText").ToString().Trim())
+                    drNew("Replacement Part Ordered") = HttpUtility.UrlDecode(dr("ReplacementStuff").ToString().Trim())
+                    drNew("Comments") = HttpUtility.UrlDecode(dr("ListPageComments").ToString().Trim())
                     drNew("Status") = dr("StatusText").ToString()
                     drNew("Date") = dr("SupportDate").ToString()
                     drNew("Created By") = dr("CaseOpenedBy").ToString()

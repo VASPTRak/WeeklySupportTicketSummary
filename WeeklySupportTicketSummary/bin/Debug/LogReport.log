@@ -75,3 +75,4 @@ DEBUG 2025-01-31 18:12:09,536   380ms Module1                StartProcessing    
 INFO  2025-01-31 18:12:15,908  6752ms Module1                ExcelProcessing    - In ExcelProcessing
 INFO  2025-01-31 18:12:21,825 12669ms Module1                WriteExcelWithNPOI - In WriteExcelWithNPOI => step 9
 INFO  2025-01-31 18:12:25,367 16211ms Module1                WriteExcelWithNPOI - In WriteExcelWithNPOI => step 10
+INFO  2025-02-05 11:46:11,634   657ms Module1                Main               - Execution started
